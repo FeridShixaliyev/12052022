@@ -1,0 +1,27 @@
+.row{
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    height: 202px;
+    width: 244px;
+    margin-top: 50px;
+}
+.col-md-6{
+    position: relative;
+    background-color: red;
+    height: 373px;
+    margin-top: 50px;
+}
+.ball{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: green;
+    border-radius: 50%;
+    margin: 0 auto;
+    left: 0;
+}
+input{
+    margin-bottom: 20px;
+}
