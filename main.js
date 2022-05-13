@@ -14,10 +14,10 @@ window.addEventListener('keyup',function(el){
     }
     if(el.key=='ArrowLeft'){
         ball.style.right=ballX+"px"
-        ball.style.left=ballX-"px"
+        ball.style.left-=ballX+"px"
     }
     if(el.key=='ArrowRight'){
         ball.style.left=ballX+"px"
-        ball.style.right=ballX-"px"
+        ball.style.right-=ballX+"px"
     }
 })
